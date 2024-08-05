@@ -1,16 +1,14 @@
-<%@ Language="VBScript" %>
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Alert Box Example</title>
+    <title>JavaScript Variable Example</title>
     <script type="text/javascript">
-        function showAlert() {
-            alert("This is an alert box!");
-        }
+        var ABC = "akmxss";
+        console.log("Variable ABC has been assigned the value: " + ABC);
     </script>
 </head>
-<body onload="showAlert()">
-    <h1>Welcome to the Alert Box Example</h1>
-    <p>This page will show an alert box when it is loaded.</p>
+<body>
+    <h1>JavaScript Variable Example</h1>
+    <p>Open the browser console to see the variable <code>ABC</code>.</p>
 </body>
 </html>
